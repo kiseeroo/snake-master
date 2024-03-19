@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Menu</title>
+    <link rel="stylesheet" href="menucss.css">
+</head>
+
+<body>
+    <img src="image/Capture.PNG" alt= width="75" height="130">
+
+    <div class="menu">
+        <h1>Snake Game Menu</h1>
+
+        <button id="instructions_button">Game Instructions</button>
+        <button id="start_button">Start Game</button>
+
+
+
+        <!--<a href="index.html" ><button id="start_button">Start Game</button> -->
+        <button id="leave_button">Leave Game</button>
+
+    </div>
+
+    <div id="instructions_popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Game Instructions</h2>
+            <ol>
+                <li>In the game of Snake, the player uses the arrow keys to move a "snake" around the board.</li>
+                <li>As the snake finds food, it eats the food, and thereby grows larger.</li>
+                <li>The game ends when the snake either moves off the screen or moves into itself.</li>
+                <li>The goal is to make the snake as large as possible before that happens.</li>
+            </ol>
+        </div>
+    </div>
+    <script src="scripttest.js"></script>
+
+</body>
+
+</html>
