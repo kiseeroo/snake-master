@@ -124,7 +124,7 @@ function changeDirection(d) {
         var nextTileNum = directionArrayInit.indexOf(parseInt(head.dataset.tile, 10)) > -1 ? directionArrayOf[directionArrayInit.indexOf(parseInt(head.dataset.tile, 10))] : parseInt(head.dataset.tile, 10) + directionDeciderNum;
         if (body.indexOf(nextTileNum) > -1) {
             scoreSpan.innerHTML = +score + ". GAME OVER";
-            restartGame();
+            clearInterval(fruitGenerator);
         } else {
             var nextTile = document.querySelector('[data-tile ="' + nextTileNum + '"]');
 

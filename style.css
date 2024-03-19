@@ -49,8 +49,8 @@ body {
 }
 
 .game {
-  height: 225px;
-  width: 225px;
+  height: 500px;
+  width: 500px;
   background: #e0e0e0;
   margin: 0 auto;
 }
