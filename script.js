@@ -37,6 +37,8 @@ function createBody() {
     }
 }
 
+
+
 // Array consisting of upmost left boxes
 for (var i = 1; i <= tilesNum; i += tilesPerRow) {
     rowStartLeft.push(i);
