@@ -15,16 +15,16 @@ var boxDimensions = (100 / tilesPerRow).toFixed(3);
 var restartButton = document.getElementById('restart_game');
 var scoreSpan = document.getElementsByClassName('score')[0];
 var score = 0;
-var speed = 0.1;
+var speed = 0.08;
 
 restartButton.addEventListener("click", function () {
-    restartGame();
+    restartGame();//click drgdh uyd game res hiigdeh
 }, false);
 
 function createGrid() {
     for (var i = 1; i <= tilesNum; i++) {
         gameDiv.innerHTML = gameDiv.innerHTML + '<div class="tile" data-tile="' + i + '" style="width:' + boxDimensions + '%; height:' + boxDimensions + '%"></div>';
-    }
+    }//225 haritsaatai boarda create hiih
 }
 
 function createBody() {
@@ -34,7 +34,7 @@ function createBody() {
         } else if (i == 1 || i == 2) {
             document.querySelector('[data-tile="' + i + '"]').classList.add("body");
         }
-    }
+    }//anhnii biy hesgiig uusgeh i=3 tentsej baigaag shalgaad  css body headiig nemne
 }
 
 
@@ -67,7 +67,7 @@ function control(e) {
         if (direction != 'r' && direction != 'l') {
             changeDirection('r');
         }
-    }
+    } 
 
     // LEFT ARROW
     if (e.keyCode == "37") {
