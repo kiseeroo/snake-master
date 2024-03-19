@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 body {
   background: #171717;
   color: white;
@@ -89,9 +90,9 @@ body {
 
 .instructions_text {
   position: absolute;
-  top: 35%; /* Adjust the value as needed */
+  top: 35%; 
   right: 90%;
-  width: 200px; /* Adjust as needed */
+  width: 200px; 
   padding: 0px;
 }
 
